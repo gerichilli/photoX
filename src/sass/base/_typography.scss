@@ -1,0 +1,30 @@
+h1 {
+  font-size: 9.5rem;
+}
+
+h2 {
+  font-size: 6.5rem;
+}
+
+h3 {
+  font-size: 3.6rem;
+}
+
+h4 {
+  font-size: 2.7rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+  &--1 {
+    color: var(--heading-1);
+  }
+
+  &--2 {
+    color: var(--heading-2);
+  }
+}

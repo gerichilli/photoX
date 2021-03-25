@@ -1,0 +1,5 @@
+@mixin createBtnRounded($width, $height) {
+  width: $width;
+  height: $height;
+  border-radius: calc(#{$height}/ 2);
+}

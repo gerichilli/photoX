@@ -1,0 +1,26 @@
+html {
+  --heading-1: #0b131a;
+  --heading-2: #ffffff;
+  --paragraph-1: #7c858b;
+  --paragraph-2: #b1bfcc;
+
+  &[data-theme='default'] {
+    --main-color: #ffba00;
+  }
+
+  &[data-theme='green'] {
+    --main-color: #2cc990;
+  }
+
+  &[data-theme='blue'] {
+    --main-color: #3e729a;
+  }
+
+  &[data-theme='purple'] {
+    --main-color: #604878;
+  }
+
+  &[data-theme='red'] {
+    --main-color: #f75f40;
+  }
+}
